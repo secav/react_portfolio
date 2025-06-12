@@ -2,7 +2,7 @@ import { Flex, Box, Link, Spacer, Text } from '@chakra-ui/react';
 import { NavLink } from 'react-router-dom';
 
 const navItems = [
-  { label: 'Home', path: '/' },
+  { label: 'Home', path: '/react_portfolio' },
   { label: 'Projects', path: '/projects' },
   { label: 'Contact', path: '/contact' },
 ];
