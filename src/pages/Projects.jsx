@@ -12,7 +12,7 @@ const projects = [
     },
     {
         title: 'Ghostlight Caverns',
-        description: 'A player friendly platformer game made in Unity. Can be quite challenging for inexperienced players',
+        description: 'A challenging platforming game made in Unity. Can be quite difficult for inexperienced players.',
         technologies: ['Unity', 'C#'],
     },
     {
@@ -22,16 +22,16 @@ const projects = [
     },
     {
         title: 'Announcement Discord Bot',
-        description: 'A discord bot made with the purpose of tracking course related announcements. It makes use of several APIs including Discord, OpenAI and Google.',
-        technologies: ['C#', 'ChatGPT', 'Google', 'Discord'],
+        description: 'A discord bot made with the purpose of tracking course related announcements. Uses APIs to interact with Discord, ChatGPT and Gmail.',
+        technologies: ['C#', 'OpenAI', 'Google', 'Discord'],
     },
     {
         title: 'Stock Tracker',
         description: 'Created to streamline stocktake. Allows the user to load data into a spreadsheet using a barcode scanner. Has a user friendly GUI.',
-        technologies: ['C#', 'Winforms'],
+        technologies: ['C#', 'WinForms'],
     },
     {
-        title: 'Coming soon',
+        title: 'Coming Soon',
         description: 'This project is still in the works. Check again later!',
         technologies: [],
     },
