@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 
 const App = () => {
   return (
-    <Box minHeight="100vh" display="flex" flexDirection="column">
+    <Box minHeight="100vh" display="flex" flexDirection="column" bg="gray.900" color="gray.100">
       <Navbar />
       <Box flex="1">
         <Routes>

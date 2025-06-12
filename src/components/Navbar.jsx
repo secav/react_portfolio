@@ -9,7 +9,7 @@ const navItems = [
 
 const Navbar = () => {
   return (
-    <Flex as="nav" p={4} bg="blue.600" color="white" align="center">
+    <Flex as="nav" p={4} align="center" bg="gray.700" color="gray.100">
       <Box>
         <Text fontWeight="bold" fontSize="lg">Santiago Cavalitto</Text>
       </Box>
@@ -23,8 +23,11 @@ const Navbar = () => {
             px={3}
             py={1}
             rounded="md"
-            _hover={{ bg: 'blue.500' }}
-            _activeLink={{ bg: 'blue.800' }}
+            variant="ghost"
+            fontWeight="medium"
+            colorScheme="teal"
+            _activeLink={{ color: 'teal.300', fontWeight: 'bold' }}
+            _hover={{ bg: 'gray.600' }}
           >
             {item.label}
           </Link>

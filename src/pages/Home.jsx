@@ -10,9 +10,9 @@ const Home = () => {
             <VStack spacing={4}>
                 <SectionHeader
                     title="Welcome to My Portfolio"
-                    subtitle="I’m Santiago Cavalitto, a developer passionate about gamedev, web apps and development in general."
+                    subtitle="I’m Santiago Cavalitto, a developer passionate about game development and web/desktop application development."
                 />
-                <Button colorScheme="blue" as={RouterLink} to="/projects">
+                <Button colorScheme="teal" as={RouterLink} to="/projects" _hover={{ bg: 'gray.600' }} bg="gray.700">
                     View My Projects
                 </Button>
             </VStack>

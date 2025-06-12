@@ -6,7 +6,7 @@ import ContactForm from '../components/ContactForm';
 const Contact = () => {
   return (
     <Container py={10}>
-      <SectionHeader title="Get in Touch" />
+      <SectionHeader title="Get in Touch" subtitle="I will reply as soon as possible!"/>
       <ContactForm />
     </Container>
   );

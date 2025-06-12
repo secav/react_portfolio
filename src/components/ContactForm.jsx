@@ -55,7 +55,7 @@ const ContactForm = () => {
         />
       </FormControl>
 
-      <Button type="submit" colorScheme="blue" width="full">
+      <Button type="submit" colorScheme="blue" width="full" _hover={{ bg: 'gray.600' }} bg="gray.700">
         Send
       </Button>
     </Box>
