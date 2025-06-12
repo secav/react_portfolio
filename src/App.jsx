@@ -15,7 +15,7 @@ const App = () => {
       <Navbar />
       <Box flex="1">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/react_portfolio" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
